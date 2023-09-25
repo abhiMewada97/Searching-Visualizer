@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    /* box-sizing: border-box; */
+    padding: 0;
+}
+
+#container {
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: aqua; */
+    /* width: 500px; */
+}
+
+h3 {
+    color: red;
+}
+
+body{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-button button {
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style:hidden;
+    background-color: yellow;
+    box-shadow: 2px 1px 5px;
+}
+
+#main-button button:hover {
+
+    background-color: yellow;
+    box-shadow: 2px 1px 10px;
+}
+
+#change-speed label {
+    font-weight: bold;
+}
+
+#change-speed input {
+    margin-top: 2rem;
+}
+
+.bar {
+    width: 15px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    padding: 4px 2px 2px 2px;
+    margin: 2px;
+}
+
+#findNow {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.find-ele {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+    /* margin: 0.1rem; */
+}
