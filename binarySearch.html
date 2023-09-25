@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizer</title>
+
+    <link rel="stylesheet" href="binarySearch.css">
+</head>
+<body>
+    <h1>Binary Search</h1>
+    <br>
+    <h3>Value initialize Ready to find, Press play button</h3>
+    <br>
+    
+    <div id="container"></div>
+    
+    <div id="main-button">
+        <button onClick="init()">Change</button>
+        <button onClick="play()">Play</button>
+    </div>
+
+    <div id="change-speed">
+        <label for="speed"> Speed</label>
+        <input type="range" min="1000" max="5000" step="500" value="" id="speed">
+    </div>
+    
+    <div id="findNow"></div>
+    
+    <script src="binarySearch.js"></script>
+</body>
+</html>
